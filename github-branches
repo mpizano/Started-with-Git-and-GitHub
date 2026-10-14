@@ -1,0 +1,18 @@
+$ git branch -avv
+  bug-fix-revert                853dd76 [origin/bug-fix-revert] Revert "Fix copyright year typo from 2022 to 2023"
+  bug-fix-typo                  3a47876 [origin/bug-fix-typo] Fix copyright year typo from 2022 to 2023
+* main                          3a47876 [origin/main] Fix copyright year typo from 2022 to 2023
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 853dd76 Revert "Fix copyright year typo from 2022 to 2023"
+  remotes/origin/bug-fix-typo   3a47876 Fix copyright year typo from 2022 to 2023
+  remotes/origin/main           3a47876 Fix copyright year typo from 2022 to 2023
+
+$ git status --short --branch
+## main...origin/main
+
+$ git remote -v
+origin	https://github.com/mpizano/mcino-Introduction-to-Git-and-GitHub.git (fetch)
+origin	https://github.com/mpizano/mcino-Introduction-to-Git-and-GitHub.git (push)
+upstream	https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git (fetch)
+upstream	https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git (push)
+
